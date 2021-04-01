@@ -1,8 +1,6 @@
 pipeline {
-    agent 
-    {
-    label 'WindowsNode'
-    }
+    agent any
+   
     stages {
         stage('Build') {
             steps {
